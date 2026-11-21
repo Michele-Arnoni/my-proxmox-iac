@@ -1,0 +1,19 @@
+# terraform init plugins
+.terraform/
+.terraform.lock.hcl
+
+# state files
+*.tfstate
+*.tfstate.*
+
+# File con valori sensibili reali
+*.tfvars
+*.tfvars.json
+
+# crash logs and temporary files
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
